@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amazon POMs Automation test Suite">
+<listeners>
+	<listener class-name="extentReport.ExtentReporterNG"></listener>
+</listeners>
+
+	<test name="Amozon Test Cases">
+		<classes>
+			<class name="testcases.DefaultPageTest"></class>
+			<class name="testcases.LoginEmailPageTest"></class>
+			<class name="testcases.LoginPasswordPageTest"></class>
+		</classes>
+	</test>
+</suite>
